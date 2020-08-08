@@ -28,8 +28,10 @@ public class WidgetTest {
 	public void updateEnableState() {
 		Widget widget = new Widget();
 		widget.setEnabled(false);
+		System.out.println("true");
 		assertFalse(widget.isEnabled());
 		widget.setEnabled(true);
+		System.out.println("false");
 		assertTrue(widget.isEnabled());
 	}
 }
