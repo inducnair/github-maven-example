@@ -31,7 +31,7 @@ public class WidgetTest {
 		System.out.println("true");
 		assertFalse(widget.isEnabled());
 		widget.setEnabled(true);
-		System.out.println("false");
+		System.out.println("false123");
 		assertTrue(widget.isEnabled());
 	}
 }
